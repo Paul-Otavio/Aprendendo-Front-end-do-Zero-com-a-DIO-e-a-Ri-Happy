@@ -1,0 +1,152 @@
+/* Estilos Globais */
+body {
+    background-color: black; /* Cor de fundo preta */
+    font-family: 'Times New Roman', Times, serif; /* Fonte padrão */
+    margin: 0;
+    box-sizing: border-box; /* Define box-sizing como border-box */
+}
+
+* {
+    box-sizing: inherit; /* Inherit box-sizing from body */
+}
+
+h2 {
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #3bb2e1; /* Cor do texto */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+p {
+    color: white; /* Cor do texto */
+}
+
+section {
+    margin: 100px auto; /* Margem automática para centralizar */
+}
+
+/* Estilos do Banner */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(49, 168, 221, .3), rgba(0, 0, 0, .6)), url(./assets/images/banner.png) no-repeat center center/cover; /* Imagem de fundo com gradiente */
+    height: 600px; /* Altura do banner */
+    padding-top: 62px; /* Espaçamento superior */
+    border-bottom: 1px solid #2aa3d280; /* Borda inferior */
+}
+
+.banner .banner-content {
+    color: white; /* Cor do texto */
+    width: 600px; /* Largura do conteúdo */
+    margin: auto; /* Centralizar */
+    text-align: center; /* Alinhar texto ao centro */
+}
+
+.banner h1 {
+    color: #3bb2e1; /* Cor do texto */
+}
+
+.banner p {
+    font-size: 1.25rem; /* Tamanho da fonte */
+    margin: 16px 0 24px; /* Margens */
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, .3); /* Fundo transparente */
+    height: 260px; /* Altura do logo */
+    width: 260px; /* Largura do logo */
+    margin: auto; /* Centralizar */
+    border-radius: 50%; /* Borda arredondada */
+    padding: 16px; /* Espaçamento interno */
+    margin-bottom: 16px; /* Espaçamento inferior */
+}
+
+.banner .logo img {
+    width: 100%; /* Largura da imagem */
+    height: 100%; /* Altura da imagem */
+    object-fit: contain; /* Manter proporção da imagem */
+}
+
+.banner .banner-content button {
+    color: #3bb2e1; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    padding: 16px 32px; /* Espaçamento interno */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    background-color: transparent; /* Fundo transparente */
+    border-image: linear-gradient(#3c9bc4, #1163a1); /* Gradiente da borda */
+    border-image-slice: 10;
+    border-radius: 30px; /* Borda arredondada */
+}
+
+/* Estilos do Conteúdo do Curso */
+#course-content {
+    width: 900px; /* Largura do conteúdo */
+    text-align: center; /* Alinhamento central */
+}
+
+#course-content .modules-list {
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Direção da coluna */
+    align-items: center; /* Alinhar ao centro */
+    margin: 20px 0; /* Margens */
+}
+
+#course-content .modules-list .module {
+    color: white; /* Cor do texto */
+    width: 530px; /* Largura do módulo */
+    margin: 0 auto 24px; /* Margens */
+    border: 1px solid #3bb2e1; /* Borda */
+    padding: 16px; /* Espaçamento interno */
+    border-radius: 100px; /* Bordas arredondadas */
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); /* Sombra interna */
+}
+
+#course-content .modules-list .module span {
+    color: #3bb2e1; /* Cor do texto */
+}
+
+/* Estilos da Seção Transforme o Mundo */
+#transform-world {
+    height: 560px; /* Altura da seção */
+    background: url("/assets/images/woman-code.png") no-repeat center center/cover; /* Imagem de fundo */
+    background-attachment: fixed; /* Imagem fixa ao rolar */
+    border-top: 1px solid #3bb2e1; /* Borda superior */
+    border-bottom: 1px solid #3bb2e1; /* Borda inferior */
+    padding: 200px; /* Espaçamento interno */
+}
+
+#transform-world p {
+    font-weight: 900; /* Peso da fonte */
+    font-size: 2.5rem; /* Tamanho da fonte */
+    text-transform: lowercase; /* Texto em minúsculas */
+    max-width: 250px; /* Largura máxima */
+    text-shadow: 3px 2px #33A8DB; /* Sombra do texto */
+}
+
+/* Estilos dos Desafios Profissionais */
+#professional-challenges {
+    text-align: center; /* Alinhamento central */
+    width: 800px; /* Largura */
+}
+
+#professional-challenges img {
+    margin: 32px 0; /* Margens */
+}
+
+/* Estilos do Rodapé */
+footer {
+    padding: 60px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento central */
+    background: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2)); /* Gradiente de fundo */
+    border-top: 1px solid #3bb2e180; /* Borda superior */
+}
+
+footer .dio-logo {
+    width: 300px; /* Largura do logo */
+}
+
+footer a {
+    color: #3bb2e1; /* Cor do link */
+    font-weight: bold; /* Negrito */
+    text-decoration: none; /* Sem sublinhado */
+}
